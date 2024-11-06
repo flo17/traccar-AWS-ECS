@@ -22,7 +22,8 @@ This project deploys a [Traccar docker container](https://github.com/traccar/tra
 
 - **AWS IAM Credentials (credential.csv)**: Required to grant the ECS task access to AWS Secrets Manager and RDS.  
   Generate these credentials:
-    1. Go to AWS IAM → Users → Security Credentials → Create Access Key.
+    1. Go to AWS IAM → Users → Security Credentials → Create Access Key.  
+    ![IAM Access Key](docs/iam_access_key.png)
     2. Save the access key as a `credential.csv` file.
   
    > **Note**: Edit the CSV header to include "User Name" for compatibility, though the user name value is not essential:
